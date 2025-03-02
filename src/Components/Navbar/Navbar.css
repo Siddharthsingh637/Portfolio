@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 80px;
+    padding-block: 20px;
+    background: #161513;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: capitalize;
+    background: linear-gradient(90deg, #ffdd00, #003b03);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 3s infinite;
+}
+
+.nav-logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-menu li {
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;  /* White color for links */
+    transition: color 0.3s;
+}
+
+.nav-menu li:hover {
+    color: #ff6a00;
+}
+
+.nav-connect {
+    background: linear-gradient(310deg, #ffdd00, #003b03);
+    color: #fff;
+    padding: 15px 30px;   /* Bigger button size */
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 18px;  /* Adjusted font size */
+    font-weight: normal;
+}
+
+.nav-connect:hover {
+    background: linear-gradient(60deg, #ffdd00, #003b03);
+}

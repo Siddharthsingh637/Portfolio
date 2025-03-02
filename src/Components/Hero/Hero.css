@@ -1,0 +1,95 @@
+.hero {
+    height: 100vh;
+    /* margin-bottom: 20vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: #f0f2f5; */
+    padding: 0 20px;
+
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(230deg, #ffdd00, #003b03);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 3s infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #dfdcdc;
+    margin-bottom: 40px;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.action {
+    display: flex;
+    gap: 20px;
+}
+
+.conncet {
+    background: linear-gradient(230deg, #ffdd00, #003b03);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resume {
+    background: #fff;
+    color: #000000;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.conncet:hover{
+    background: linear-gradient(60deg, #ffdd00, #003b03);
+    transform: translateY(-5px);
+}
+
+.resume:hover {
+    background: linear-gradient(60deg, #ffdd00, #003b03);
+    color: #fff;
+    transform: translateY(-5px);
+    border: none;
+}

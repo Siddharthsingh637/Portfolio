@@ -1,0 +1,60 @@
+.title {
+    text-align: center;
+    margin-bottom: 5px;
+    clear: both;
+  }
+  
+  .title p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  
+  .title h2 {
+    font-size: 2.5rem;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+    background: linear-gradient(60deg, #ffdd00, #003b03);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 3s infinite;
+    letter-spacing: 2px;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .title h2 {
+      font-size: 2rem;
+    }
+  
+    .title p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title h2 {
+      font-size: 1.7rem;
+    }
+  
+    .title p {
+      font-size: 0.8rem;
+    }
+  }
+  

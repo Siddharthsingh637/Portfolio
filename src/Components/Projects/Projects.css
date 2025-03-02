@@ -1,0 +1,102 @@
+/* Project Card */
+.projects{
+  height: 85vh;
+}
+.title{
+  margin-bottom: 150px;
+}
+
+.project-card {
+  background: white;
+  color: black;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 350px;
+  margin: auto;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  /* box-shadow: 0 4px 10px rgba(255, 255, 255, 0.834); */
+  top: 100px;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.project-card .tech {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ff6a00;
+}
+
+.project-card .description {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* View Button */
+.view-btn {
+  background: #ff8000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 15px;
+}
+
+.view-btn:hover {
+  background: #f9f902;
+  transform: scale(1.05);
+}
+
+/* Active Slide Styling */
+.swiper-slide {
+  opacity: 0;
+  transform: scale(0.2);
+  transition: all 0.5s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.1);
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(255, 106, 0, 0.3);
+}
+
+.swiper-button-prev{
+  background: rgb(255, 255, 255);
+  width: 65px;
+  height: 45px;
+  border-radius: 50%;
+  color: white;
+  transition: background 0.3s ease, transform 0.2s ease;
+  position: relative;
+  right: 60px;
+}
+.swiper-button-next {
+  background: rgb(255, 255, 255);
+  width: 65px;
+  height: 45px;
+  border-radius: 50%;
+  color: white;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: #ffffff;
+  transform: scale(1.1);
+}
