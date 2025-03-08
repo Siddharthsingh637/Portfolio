@@ -88,7 +88,7 @@
 
 .skill-level {
   height: 100%;
-  background: linear-gradient(45deg, #ffdd00, #003b03);
+  background: linear-gradient(60deg, #006aff, #e100ff);
   border-radius: 10px;
   width: 0;
   transition: width 0.5s ease;

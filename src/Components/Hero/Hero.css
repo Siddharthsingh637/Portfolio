@@ -23,7 +23,7 @@
 .hero h1 {
     font-size: 3rem;
     font-family: 'Outfit', sans-serif;
-    background: linear-gradient(230deg, #ffdd00, #003b03);
+    background: linear-gradient(60deg, #006aff, #e100ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient-animation 3s infinite;
@@ -56,7 +56,7 @@
 }
 
 .conncet {
-    background: linear-gradient(230deg, #ffdd00, #003b03);
+    background: linear-gradient(60deg, #006aff, #e100ff);
     color: #fff;
     padding: 15px 30px;
     border-radius: 30px;
@@ -83,12 +83,12 @@
 }
 
 .conncet:hover{
-    background: linear-gradient(60deg, #ffdd00, #003b03);
+    background: linear-gradient(230deg, #006aff, #e100ff);
     transform: translateY(-5px);
 }
 
 .resume:hover {
-    background: linear-gradient(60deg, #ffdd00, #003b03);
+    background: linear-gradient(230deg, #006aff, #e100ff);
     color: #fff;
     transform: translateY(-5px);
     border: none;

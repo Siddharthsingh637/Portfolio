@@ -18,7 +18,7 @@
     font-family: 'Outfit', sans-serif;
     text-transform: uppercase;
     margin-top: 10px;
-    background: linear-gradient(60deg, #ffdd00, #003b03);
+    background: linear-gradient(60deg, #006aff, #e100ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient-animation 3s infinite;
