@@ -12,10 +12,7 @@ const App = () => {
     <div>
       <Navbar/>
       <Hero/>
-      {/* <Title subTitle='OUR COURSES' title='What we offer' /> */}
       <About/>
-      {/* <Title subTitle='What i have learned' title='My skills' /> */}
-      {/* <Skills/> */}
       <Projects/>
       <Contact/>
     </div>
